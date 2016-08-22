@@ -7,12 +7,11 @@ var NewsListView = (function() {
       }
       return htmlString + "</ul>";
   }
-
+  
   return {
     render: function(news) {
-      console.log("3");
       var element = document.getElementById('articleList');
       element.innerHTML = generateHTML(news);
     }
-  };
+  }
 });
