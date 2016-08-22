@@ -3,26 +3,19 @@
 
   <head>
     <meta charset="utf-8">
-    <title>noteÜwrote</title>
-    <script src="../src/note-model.js"></script>
-    <script src="../src/note-list-model.js"></script>
-    <script src="../src/note-list-view.js"></script>
-    <script src="../src/note-view.js"></script>
-    <script src="../src/note-controller.js"></script>
+    <title>newsReader</title>
+    <script src="../src/news-list-model.js"></script>
+    <script src="../src/news-list-view.js"></script>
+    <script src="../src/news-controller.js"></script>
   </head>
 
   <body>
     <div class="container">
       <h1 class="text-center">
-        noteÜwrote
+        newsReader
       </h1>
-      <form class="clearfix">
-        <textarea name="noteMessage" id="note-message" class="form-control" cols="30" rows="10" placeholder="Type your note here..." required></textarea>
-        <button type="submit" id="save-note-button" class="btn btn-primary btn-lg pull-right">Save</button>
-      </form>
-      <br>
-      <div id="message"></div>
-      <div id="messages"></div>
+      <div id="article"></div>
+      <div id="articleList"></div>
     </div>
   </body>
 
